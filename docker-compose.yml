@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  store:
+    image: store
+    build: .
+    ports:
+      - "1323:1323"
